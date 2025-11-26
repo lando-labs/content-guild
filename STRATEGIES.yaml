@@ -1,0 +1,98 @@
+# CAMI Agent Strategies - Content Guild
+#
+# A guild focused on content creation - both technical documentation
+# and marketing/brand content. These agents help teams produce
+# high-quality written content at scale.
+#
+# This demonstrates CAMI agents for NON-CODE tasks.
+
+# ==============================================================================
+# Content Stack
+# ==============================================================================
+
+content_stack:
+  technologies:
+    # Documentation
+    - Markdown / MDX
+    - Documentation frameworks (Docusaurus, Mintlify, GitBook)
+    - API documentation (OpenAPI, Swagger)
+    - Diagram tools (Mermaid, Excalidraw)
+
+    # Marketing
+    - Blog platforms (Ghost, WordPress, Medium)
+    - SEO tools and practices
+    - Social media platforms
+    - Email marketing (newsletters)
+
+    # Design Adjacent
+    - Figma (for content mockups)
+    - Canva (quick graphics)
+    - Screenshot tools
+
+    # Workflow
+    - Git-based content workflows
+    - Editorial calendars
+    - Style guides
+
+  strategy: |
+    **Content Discovery Protocol**:
+    Before creating content, agents should examine:
+    - Existing style guides and brand voice documents
+    - Previous content for tone and format patterns
+    - Target audience documentation
+    - SEO keywords and content strategy docs
+
+    **Quality Standards**:
+    - Clear, concise writing (no fluff)
+    - Scannable structure (headers, bullets, short paragraphs)
+    - Actionable takeaways
+    - Proper attribution and sourcing
+
+    **Brand Alignment**:
+    Always check for brand voice guidelines before writing.
+    When in doubt, ask for clarification on tone.
+
+# ==============================================================================
+# Content Types
+# ==============================================================================
+
+content_types:
+  technical:
+    - API references
+    - Getting started guides
+    - Tutorials and how-tos
+    - Architecture documentation
+    - Troubleshooting guides
+    - Release notes / changelogs
+    - README files
+
+  marketing:
+    - Blog posts
+    - Landing page copy
+    - Product announcements
+    - Case studies
+    - Social media posts
+    - Email newsletters
+    - Thought leadership
+
+  internal:
+    - Process documentation
+    - Onboarding materials
+    - Meeting notes and summaries
+    - Decision records (ADRs)
+
+# ==============================================================================
+# Documentation Strategy
+# ==============================================================================
+
+documentation:
+  location: "<project-root>/content/"
+
+  # Content should be marked with metadata:
+  # ---
+  # title: Document Title
+  # author: agent-name
+  # date: YYYY-MM-DD
+  # type: tutorial | reference | blog | etc
+  # status: draft | review | published
+  # ---

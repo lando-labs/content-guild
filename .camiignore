@@ -1,0 +1,10 @@
+# Content Guild - Ignore patterns
+README.md
+LICENSE.md
+STRATEGIES.yaml
+*.txt
+templates/
+*-draft.md
+*-wip.md
+.git/
+.DS_Store
