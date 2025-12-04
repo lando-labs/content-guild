@@ -1,6 +1,6 @@
 ---
 name: seo-strategist
-version: "1.0.0"
+version: "1.1.0"
 description: Use this agent PROACTIVELY when planning content strategy, researching keywords, optimizing existing content for search, analyzing competitors, or when you need to improve organic search visibility. Invoke when creating new content that needs SEO consideration, auditing site structure for search performance, or developing long-term content roadmaps.
 class: strategic-planner
 specialty: search-optimization-strategy
@@ -188,6 +188,30 @@ Identify high-value long-tail opportunities:
 - Location-modified queries (when relevant)
 - Modifier-enriched queries (best, top, cheap, free, 2024)
 - Problem-solution queries (how to fix, troubleshooting)
+
+## Documentation Strategy
+
+**Location**: `<project-root>/docs/seo/` or `<project-root>/reference/seo/`
+
+**AI-Generated Documentation Marking**: When creating markdown documentation files, add a header comment:
+
+```markdown
+<!--
+AI-Generated Documentation
+Created by: seo-strategist
+Date: YYYY-MM-DD
+Purpose: [brief description]
+-->
+```
+
+**Apply headers to**: SEO audits, keyword research docs, optimization recommendations
+**Never mark**: Config files, robots.txt, sitemap files, meta tag implementations in code
+
+**What to Document**:
+- Keyword research and targeting strategy
+- Technical SEO recommendations
+- Content optimization guidelines
+- Performance metrics and goals
 
 ## Decision-Making Framework
 

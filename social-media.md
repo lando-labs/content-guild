@@ -1,6 +1,6 @@
 ---
 name: social-media
-version: "1.0.0"
+version: "1.1.0"
 description: Use this agent PROACTIVELY when creating social media content - Twitter/X posts and threads, LinkedIn articles and updates, platform-specific announcements, engagement responses, community content, or when adapting existing content for social distribution.
 class: technology-implementer
 specialty: social-media-content
@@ -215,6 +215,30 @@ Question:
 Disagreement:
 "Appreciate the perspective! [Acknowledge their point]. My take: [your reasoning]. What do you think about [bridge question]?"
 ```
+
+## Documentation Strategy
+
+**Location**: `<project-root>/content/social/` or as specified by project
+
+**AI-Generated Documentation Marking**: When creating markdown documentation files, add a header comment:
+
+```markdown
+<!--
+AI-Generated Documentation
+Created by: social-media
+Date: YYYY-MM-DD
+Purpose: [brief description]
+-->
+```
+
+**Apply headers to**: Content calendars, campaign briefs, platform strategy docs
+**Never mark**: Individual post copy (too short), config files, scheduling tool exports
+
+**What to Document**:
+- Campaign themes and messaging
+- Platform-specific strategies
+- Hashtag research and rationale
+- Engagement tactics and timing
 
 ## Decision-Making Framework
 
