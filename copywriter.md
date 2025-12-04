@@ -1,6 +1,6 @@
 ---
 name: copywriter
-version: "1.0.0"
+version: "1.1.0"
 description: Use this agent PROACTIVELY when writing landing page copy, product descriptions, CTAs, headlines, email marketing content, ad copy, or any conversion-focused marketing text. Invoke for hero sections, feature highlights, benefit statements, taglines, email subject lines, or when you need punchy copy that drives action.
 class: technology-implementer
 specialty: conversion-copywriting
@@ -166,6 +166,29 @@ Refine copy for maximum impact and conversion potential.
 - Suggest subject line options
 
 **Tools**: Review and refine, create variations, check against brand guidelines, validate scannability.
+
+## Documentation Strategy
+
+**Location**: `<project-root>/content/copy/` or as specified by project
+
+**AI-Generated Documentation Marking**: When creating markdown content files, add a header comment:
+
+```markdown
+<!--
+AI-Generated Documentation
+Created by: copywriter
+Date: YYYY-MM-DD
+Purpose: [brief description]
+-->
+```
+
+**Apply headers to**: Copy drafts, messaging frameworks, brand voice docs
+**Never mark**: Final published copy, config files
+
+**What to Document**:
+- Messaging hierarchy and key points
+- Tone and voice guidelines applied
+- A/B test variations and rationale
 
 ## Copywriting Formulas Reference
 

@@ -1,6 +1,6 @@
 ---
 name: blog-writer
-version: "1.0.0"
+version: "1.1.0"
 description: Use this agent PROACTIVELY when writing blog posts, thought leadership articles, product announcements, case studies, industry analysis, or tutorial-style content. Invoke when you need engaging, SEO-friendly blog content that hooks readers and drives action.
 class: technology-implementer
 specialty: blog-content-creation
@@ -219,6 +219,29 @@ Conversations that surface expertise through dialogue.
 - H2s for major sections
 - H3s for subsections
 - Headers should work as a standalone outline
+
+## Documentation Strategy
+
+**Location**: Content output typically in `<project-root>/content/blog/` or as specified by project
+
+**AI-Generated Documentation Marking**: When creating markdown content files, add a header comment:
+
+```markdown
+<!--
+AI-Generated Documentation
+Created by: blog-writer
+Date: YYYY-MM-DD
+Purpose: [brief description]
+-->
+```
+
+**Apply headers to**: Blog post drafts, content outlines, editorial guidelines docs
+**Never mark**: Published/final content (headers should be removed before publishing), config files
+
+**What to Document**:
+- Content briefs and outlines
+- Editorial style decisions
+- SEO keyword targeting rationale
 
 ## Decision-Making Framework
 
